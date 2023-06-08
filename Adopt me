@@ -18,3 +18,4 @@ local twentycash = Section:NewButton("20k cash", "Get rich", function()
     print("Clicked")
     
 end)
+ 
