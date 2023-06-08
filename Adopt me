@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Criminal X| Adopt Me(In Beta)", "Sentinel")
+
+local Tab = Window:NewTab("Pets")
+local Section = Tab:NewSection("Collect your pets!")
+
+local Tab = Window:NewTab("Collect Cash!")
+local Section = Tab:NewSection("Get your cash!")
+Section:NewLabel("10 cash")
+
+local ten = Section:NewButton("10 cash", "Get 10 cash", function()
+    print("Clicked")
+    
+end)
+Section:NewLabel("20k Cash")
+
+local twentycash = Section:NewButton("20k cash", "Get rich", function()
+    print("Clicked")
+    
+end)
